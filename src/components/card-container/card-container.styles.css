@@ -1,0 +1,46 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    color: white;
+  }
+  
+.card-container:hover {
+    transform: scale(1.05);
+  }
+
+.card-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;  
+}
+
+  .card-container h2 {
+    margin-top: -1px;
+    margin-bottom: 8px;
+    font-family: 'get_schwifty';
+  }
+  
+  .card-container p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .card-container h2.hidden {
+    display: none;
+  }
+  
+  .card-container h2.visible {
+    display: block;
+  }

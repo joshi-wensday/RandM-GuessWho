@@ -69,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # RandM-GuessWho
+
+This project is a quick react project, my first one indeed!
+
+It's a little rick and morty guess who game, type the name to reveal the name on the character card. You can change the value at the end of the API call to call a whole list of new characters. Enjoy kiddos and have fun!
